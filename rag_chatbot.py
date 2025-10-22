@@ -625,24 +625,51 @@ def main():
                     </div>
                     """, unsafe_allow_html=True)
     
-    # Footer - Color Hunt paleti ile
-    st.markdown("---")
+    # Footer - Sigara dumanı efekti ile
     st.markdown("""
     <div class="footer">
-        <p style="color: #bad7e9; font-size: 1.1rem; font-family: 'Georgia', 'Times New Roman', serif; font-style: italic; letter-spacing: 0.5px; text-shadow: 0 0 10px rgba(186, 215, 233, 0.3); margin: 0;">
+        <div class="smoke-text" style="color: #bad7e9; font-size: 1.3rem; font-family: 'Georgia', 'Times New Roman', serif; font-style: italic; letter-spacing: 1px; text-align: center; margin: 20px 0; animation: smokeEffect 6s infinite;">
             "No hay banda. It is all an illusion."
-        </p>
-        <div class="illusion-text" style="color: #eb455f; font-size: 1.4rem; font-family: 'Georgia', 'Times New Roman', serif; font-weight: bold; text-align: center; margin-top: 10px; animation: fadeInOut 4s infinite;">
-            Club Silencio
         </div>
     </div>
     
     <style>
-    @keyframes fadeInOut {
-        0% { opacity: 0; transform: scale(0.8); }
-        20% { opacity: 1; transform: scale(1.1); }
-        80% { opacity: 1; transform: scale(1.1); }
-        100% { opacity: 0; transform: scale(0.8); }
+    @keyframes smokeEffect {
+        0% { 
+            opacity: 0; 
+            transform: translateY(20px) scale(0.8); 
+            filter: blur(3px);
+        }
+        15% { 
+            opacity: 0.3; 
+            transform: translateY(10px) scale(0.9); 
+            filter: blur(2px);
+        }
+        30% { 
+            opacity: 0.8; 
+            transform: translateY(0px) scale(1.0); 
+            filter: blur(1px);
+        }
+        50% { 
+            opacity: 1; 
+            transform: translateY(-5px) scale(1.05); 
+            filter: blur(0px);
+        }
+        70% { 
+            opacity: 0.6; 
+            transform: translateY(-10px) scale(1.0); 
+            filter: blur(1px);
+        }
+        85% { 
+            opacity: 0.2; 
+            transform: translateY(-15px) scale(0.9); 
+            filter: blur(2px);
+        }
+        100% { 
+            opacity: 0; 
+            transform: translateY(-25px) scale(0.7); 
+            filter: blur(4px);
+        }
     }
     </style>
     """, unsafe_allow_html=True)
