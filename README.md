@@ -94,7 +94,7 @@ Kullanıcı Sorusu → Embedding → Vektör Arama → Bağlam Bulma → LLM →
 ## 🌐 Canlı Demo
 
 ### 🚀 Web Uygulaması
-**🔗 [Mulholland Drive RAG Chatbot - Canlı Demo](https://mulhollandchatbot-9d92u4xdxivvgjsbjpse.streamlit.app/)**
+**🔗 [Mulholland Drive RAG Chatbot - Canlı Demo](https://mulhollandchatbot-9d92u4xdxivvgjsbjpysse.streamlit.app/)**
 
 **Platform**: Streamlit Community Cloud  
 **Durum**: ✅ Aktif ve çalışır durumda
@@ -199,7 +199,7 @@ streamlit run rag_chatbot.py
 
 Bu proje, RAG teknolojisinin film analizi alanındaki başarılı bir uygulamasıdır. Mulholland Drive'ın karmaşık yapısını anlaşılır hale getirerek, kullanıcılara interaktif bir öğrenme deneyimi sunar. Modern web teknolojileri ve AI'nin gücünü birleştirerek, film analizi alanında yeni bir yaklaşım ortaya koyar.
 
-**🌐 [Canlı Demo'yu Deneyin](https://mulhollandchatbot-9d92u4xdxivvgjsbjpse.streamlit.app/)**
+**🌐 [Canlı Demo'yu Deneyin](https://mulhollandchatbot-9d92u4xdxivvgjsbjpysse.streamlit.app/)**
 
 ---
 
