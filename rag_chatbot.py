@@ -630,7 +630,7 @@ def main():
     st.markdown("""
     <div class="footer">
         <p style="color: #bad7e9; font-size: 0.9rem; font-style: italic; margin: 0;">
-            "No hay banda. It is all an illusion." - Mulholland Drive Analiz Asistanı
+            "No hay banda. It is all an illusion." - Mulholland Drive
         </p>
     </div>
     """, unsafe_allow_html=True)
