@@ -59,7 +59,7 @@ Kullanıcı Sorusu → Embedding → Vektör Arama → Bağlam Bulma → LLM →
 - **Color Hunt Paleti**: Göz yormayan renk şeması
 
 #### **Deployment**
-- **Streamlit Community Cloud**: Ücretsiz hosting
+- **Streamlit Community Cloud**: ✅ Aktif (Canlı demo mevcut)
 - **Hugging Face Spaces**: Alternatif deployment seçeneği
 
 ### 🎨 Arayüz Özellikleri
@@ -91,12 +91,13 @@ Kullanıcı Sorusu → Embedding → Vektör Arama → Bağlam Bulma → LLM →
 - **Tema Analizleri**: "Filmdeki rüya ve gerçeklik ayrımı nasıl?"
 - **Genel Bilgiler**: "Mulholland Drive'ın ana teması nedir?"
 
-## 🌐 Web Linki
+## 🌐 Canlı Demo
 
-### 🚀 Demo Linki
-**Yerel Test**: `http://localhost:8501` *(Kurulum sonrası çalışan)*
+### 🚀 Web Uygulaması
+**🔗 [Mulholland Drive RAG Chatbot - Canlı Demo](https://mulhollandchatbot-9d92u4xdxivvgjsbjpse.streamlit.app/)**
 
-**Not**: Proje değerlendirmesi için yerel kurulum yeterlidir. Deploy edilmiş canlı versiyon opsiyoneldir.
+**Platform**: Streamlit Community Cloud  
+**Durum**: ✅ Aktif ve çalışır durumda
 
 ### 📱 Kullanım
 1. Web sitesine gidin
@@ -198,7 +199,7 @@ streamlit run rag_chatbot.py
 
 Bu proje, RAG teknolojisinin film analizi alanındaki başarılı bir uygulamasıdır. Mulholland Drive'ın karmaşık yapısını anlaşılır hale getirerek, kullanıcılara interaktif bir öğrenme deneyimi sunar. Modern web teknolojileri ve AI'nin gücünü birleştirerek, film analizi alanında yeni bir yaklaşım ortaya koyar.
 
-**🌐 [Yerel Demo'yu Deneyin](http://localhost:8501)**
+**🌐 [Canlı Demo'yu Deneyin](https://mulhollandchatbot-9d92u4xdxivvgjsbjpse.streamlit.app/)**
 
 ---
 
