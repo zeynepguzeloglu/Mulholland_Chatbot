@@ -632,7 +632,19 @@ def main():
         <p style="color: #bad7e9; font-size: 1.1rem; font-family: 'Georgia', 'Times New Roman', serif; font-style: italic; letter-spacing: 0.5px; text-shadow: 0 0 10px rgba(186, 215, 233, 0.3); margin: 0;">
             "No hay banda. It is all an illusion."
         </p>
+        <div class="illusion-text" style="color: #eb455f; font-size: 1.4rem; font-family: 'Georgia', 'Times New Roman', serif; font-weight: bold; text-align: center; margin-top: 10px; animation: fadeInOut 4s infinite;">
+            Club Silencio
+        </div>
     </div>
+    
+    <style>
+    @keyframes fadeInOut {
+        0% { opacity: 0; transform: scale(0.8); }
+        20% { opacity: 1; transform: scale(1.1); }
+        80% { opacity: 1; transform: scale(1.1); }
+        100% { opacity: 0; transform: scale(0.8); }
+    }
+    </style>
     """, unsafe_allow_html=True)
 
 
