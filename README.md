@@ -133,11 +133,25 @@ python3 rag_prepare.py --input mulholland_veri.txt --output chunks.jsonl
 streamlit run rag_chatbot.py
 ```
 
-### 🔑 API Anahtarı
-`.env` dosyasına Gemini API anahtarını ekleyin:
-```
-GOOGLE_API_KEY=my_api_key_here
-```
+### 🔑 API Anahtarı Kurulumu
+Projeyi çalıştırmak için Google Gemini API anahtarı gereklidir:
+
+1. **Google AI Studio'ya git**: https://aistudio.google.com/
+2. **"Get API Key"** butonuna tıkla
+3. **"Create API Key"** seçeneğini seç
+4. **API anahtarını kopyala**
+
+5. **Proje klasöründe `.env` dosyası oluştur:**
+   ```bash
+   touch .env
+   ```
+
+6. **`.env` dosyasına API anahtarını ekle:**
+   ```
+   GOOGLE_API_KEY=your_actual_api_key_here
+   ```
+
+**⚠️ Önemli**: `.env` dosyası GitHub'a yüklenmez (güvenlik için `.gitignore`'da)
 
 ## 📁 Proje Yapısı
 
@@ -159,9 +173,11 @@ pip install -r requirements.txt
 ```
 
 ### Gemini API hatası alıyorum
+- `.env` dosyası oluşturuldu mu kontrol edin
 - `.env` dosyasında `GOOGLE_API_KEY` doğru mu kontrol edin
-- Google AI Studio'dan API anahtarınızı alın
+- Google AI Studio'dan API anahtarınızı alın: https://aistudio.google.com/
 - API limitlerinizi kontrol edin
+- API anahtarının doğru formatta olduğunu kontrol edin
 
 ### chunks.jsonl dosyası bulunamıyor
 ```bash
