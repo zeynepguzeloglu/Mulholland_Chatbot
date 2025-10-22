@@ -629,8 +629,8 @@ def main():
     st.markdown("---")
     st.markdown("""
     <div class="footer">
-        <p style="color: #bad7e9; font-size: 0.9rem; font-style: italic; margin: 0;">
-            "No hay banda. It is all an illusion." - Mulholland Drive
+        <p style="color: #bad7e9; font-size: 1.1rem; font-family: 'Georgia', 'Times New Roman', serif; font-style: italic; letter-spacing: 0.5px; text-shadow: 0 0 10px rgba(186, 215, 233, 0.3); margin: 0;">
+            "No hay banda. It is all an illusion."
         </p>
     </div>
     """, unsafe_allow_html=True)
