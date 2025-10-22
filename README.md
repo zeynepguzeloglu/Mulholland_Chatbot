@@ -158,11 +158,6 @@ Mulholland_RAG_Chatbot/
 pip install -r requirements.txt
 ```
 
-### Gemini API hatası alıyorum
-- `.env` dosyasında `GOOGLE_API_KEY` doğru mu kontrol edin
-- Google AI Studio'dan API anahtarınızı alın
-- API limitlerinizi kontrol edin
-
 ### chunks.jsonl dosyası bulunamıyor
 ```bash
 python3 rag_prepare.py --input mulholland_veri.txt --output chunks.jsonl
