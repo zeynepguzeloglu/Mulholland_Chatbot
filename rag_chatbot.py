@@ -627,10 +627,8 @@ def main():
     
     # Footer - Sigara dumanı efekti ile
     st.markdown("""
-    <div class="footer">
-        <div class="smoke-text" style="color: #bad7e9; font-size: 1.3rem; font-family: 'Georgia', 'Times New Roman', serif; font-style: italic; letter-spacing: 1px; text-align: center; margin: 20px 0; animation: smokeEffect 6s infinite;">
-            "No hay banda. It is all an illusion."
-        </div>
+    <div class="smoke-text" style="color: #bad7e9; font-size: 1.3rem; font-family: 'Georgia', 'Times New Roman', serif; font-style: italic; letter-spacing: 1px; text-align: center; margin: 20px 0; animation: smokeEffect 6s infinite; background: transparent;">
+        "No hay banda. It is all an illusion."
     </div>
     
     <style>
